@@ -110,6 +110,15 @@ window.SITE = {
      status:   "published" | "drafting" | "planned"          */
   posts: [
     {
+      title: "Why I'm starting The Measurement Desk",
+      blurb: "Fourteen years of marketing measurement, and the budget questions that still don't have easy answers.",
+      topic: "Launch",
+      platform: "Substack",
+      date: "Sep 2026",
+      url: "https://raianupam171126.substack.com/p/why-im-starting-the-measurement-desk",
+      status: "published"
+    },
+    {
       title: "Your MMM is only as good as your last experiment",
       blurb: "Why geo-lift and holdout tests should calibrate the model, not sit in a separate deck.",
       topic: "MMM",
