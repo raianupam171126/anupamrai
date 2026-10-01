@@ -17,6 +17,10 @@ GitHub Pages is a poor place for video files (100 MB file limit, no streaming), 
 
 Until an ID is set, the card shows a styled "Upload pending" poster. The site loads the real YouTube player only when someone clicks play, so the page stays fast.
 
+## Updating the site
+
+After editing `content.js`, also change the date in `<script src="content.js?v=...">` near the bottom of `index.html`, so visitors' browsers fetch the new version instead of a cached one.
+
 ## 2. Publish a blog post
 
 Write on Medium, Substack or LinkedIn. Then in `content.js` → `posts`, set `url`, `date`, `platform` and change `status` to `"published"`. Posts still marked `"planned"` or `"drafting"` show as "Coming soon", which doubles as a public content roadmap. Also set `links.blog` to your Medium/Substack home page.
